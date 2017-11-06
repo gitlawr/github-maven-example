@@ -33,4 +33,15 @@ public class Widget {
 		this.enabled = enabled;
 		return this;
 	}
+	
+	/**
+	 * Set the widget enable state
+	 * 
+	 * @param enabled
+	 * @return this widget
+	 */
+	public Widget setEnabled1(boolean enabled) {
+		this.enabled = enabled;
+		return this;
+	}
 }
